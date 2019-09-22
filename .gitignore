@@ -2,6 +2,7 @@
 
 # idea
 /.idea
+/Makefile
 
 # compiled output
 /dist/
