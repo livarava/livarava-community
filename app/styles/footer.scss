@@ -1,0 +1,28 @@
+footer {
+  border-top: solid 1px #ccc;
+  background-color: #eee;
+  padding-top: 16px;
+  line-height: 36px;
+  color: #777;
+
+  .copyright {
+    font-size: 12px;
+    color: #777;
+  }
+
+  .btn-social {
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #888;
+    display: inline-block;
+    line-height: 24px;
+    text-align: center;
+    color: #eee;
+  }
+
+  .menu a {
+    color: #777;
+    margin-right: 5px;
+  }
+}
