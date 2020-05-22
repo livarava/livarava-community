@@ -1,8 +1,14 @@
 run:
 	ember s
 
+master:
+	ember s --environment="master"
+
+local:
+	ember s --environment="local"
+
 build:
-	ember b
+	ember b --environment="production"
 
 deploy:
 	@read -p "Are You Sure? [y/N] " sure && case "$$sure" in [yY]) scp -r dist/** community@94.130.108.105:~/dist/;; *) exit;; esac
